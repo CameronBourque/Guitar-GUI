@@ -137,7 +137,7 @@ public class GuitarFrame extends JFrame implements MouseListener, ActionListener
 		mouseCoords = new JLabel("(0,0)");
 		try
 		{
-			guitarIcon = ImageIO.read(new File("images/guitar1crop.jpg"));
+			guitarIcon = ImageIO.read(getClass().getResourceAsStream("images/guitar1crop.jpg"));
 		}
 		catch(IOException e)
 		{
